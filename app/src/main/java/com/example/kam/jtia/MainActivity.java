@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_heritageLodge) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_language) {
 
         } else if (id == R.id.nav_send) {
 
