@@ -12,11 +12,11 @@
             android:title="@string/guided_tour" />
         <item
             android:id="@+id/nav_events"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_event_black_24dp"
             android:title="@string/events" />
         <item
             android:id="@+id/nav_heritageLodge"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_hotel_black_24dp"
             android:title="@string/heritage_lodge" />
         <item
             android:id="@+id/nav_venueHire"
@@ -24,28 +24,24 @@
             android:title="@string/venue_hire" />
         <item
             android:id="@+id/nav_eShop"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
             android:title="@string/e_shop" />
         <item
             android:id="@+id/nav_donation"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_attach_money_black_24dp"
             android:title="@string/donation" />
         <item
             android:id="@+id/nav_map"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_map_black_24dp"
             android:title="@string/map" />
     </group>
 
-    <item android:title="Others">
+    <item android:title="@string/others">
         <menu>
             <item
                 android:id="@+id/nav_language"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/ic_language_black_24dp"
                 android:title="@string/lanugage" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
         </menu>
     </item>
 

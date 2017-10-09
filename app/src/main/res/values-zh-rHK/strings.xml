@@ -8,9 +8,11 @@
     <string name="e_shop">商店</string>
     <string name="donation">捐款</string>
     <string name="map">地圖</string>
-</resources>
-<resources>
-    <string name="switch_language">Switch Language</string>
-    <string name="english">English</string>
-    <string name="chinese">Chinese</string>
+
+    <string name="switch_language">切換語言</string>
+    <string name="english">英文</string>
+    <string name="chinese">中文</string>
+    <string name="lanugage">語言</string>
+    <string name="others">其他</string>
+    <string name="welcome_to_jtia">歡迎蒞臨饒宗頤文化館</string>
 </resources>

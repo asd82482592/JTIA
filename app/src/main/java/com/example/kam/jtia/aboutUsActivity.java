@@ -18,5 +18,16 @@ public class aboutUsActivity extends AppCompatActivity {
 
 
 
+
     }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        Intent myIntent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivityForResult(myIntent, 0);
+        return true;
+
+    }
+
+
+
 }

@@ -108,8 +108,6 @@ public class MainActivity extends BaseActivity
             }
             mDialog.show();
 
-        } else if (id == R.id.nav_send) {
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

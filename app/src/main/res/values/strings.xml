@@ -8,7 +8,7 @@
     <string name="title_activity_about_us">aboutUsActivity</string>
 
 
-    <string name="guided_tour" />
+    <string name="guided_tour">Guided Tour</string>
     <string name="events">Events</string>
     <string name="visit">Visit</string>
     <string name="heritage_lodge">Heritage Lodge</string>
@@ -17,5 +17,10 @@
     <string name="donation">Donation</string>
     <string name="map">Map</string>
 
-
+    <string name="switch_language">Switch Language</string>
+    <string name="english">English</string>
+    <string name="chinese">Chinese</string>
+    <string name="lanugage">lanugage</string>
+    <string name="others">Others</string>
+    <string name="welcome_to_jtia">Welcome to JTIA</string>
 </resources>
