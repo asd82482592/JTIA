@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="visit">關於我們</string>
+    <string name="guided_tour">導遊</string>
+    <string name="events">Events</string>
+    <string name="heritage_lodge">Heritage Lodge</string>
+    <string name="venue_hire">Venue Hire</string>
+    <string name="e_shop">E-Shop</string>
+    <string name="donation">Donation</string>
+    <string name="map">Map</string>
+    <string name="lanugage">Lanugage</string>
+</resources>
