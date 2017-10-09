@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="welcome_to_jtia">Welcome to JTIA!</string>
+    <string name="english">英文</string>
+    <string name="chinese">中文</string>
+    <string name="switch_language">轉換語言</string>
+</resources>
