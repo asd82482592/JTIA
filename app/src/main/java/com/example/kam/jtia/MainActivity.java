@@ -1,11 +1,9 @@
 package com.example.kam.jtia;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,12 +13,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
-public class MainActivity extends BaseActivity
-        implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener{
-    private Dialog mDialog;
+public class MainActivity extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,19 +91,7 @@ public class MainActivity extends BaseActivity
         } else if (id == R.id.nav_heritageLodge) {
 
         } else if (id == R.id.nav_language) {
-            if (mDialog == null) {
-                LayoutInflater inflater = getLayoutInflater();
-                View layout = inflater.inflate(R.layout.dialog_select_lanuage,null);
-                TextView english = (TextView) layout.findViewById(R.id.select_english);
-                TextView chinese = (TextView) layout.findViewById(R.id.select_chinese);
-                mDialog = new Dialog(MainActivity.this, R.style.Custom_Dialog_Theme);
-                mDialog.setCanceledOnTouchOutside(false);
-                english.setOnClickListener(MainActivity.this);
-                chinese.setOnClickListener(MainActivity.this);
-                mDialog.setContentView(layout);
-            }
-            mDialog.show();
-
+           // Intent i = new Intent(this, languageActivity.class);
         } else if (id == R.id.nav_send) {
 
         }
@@ -115,32 +99,5 @@ public class MainActivity extends BaseActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-    @Override
-    public void onClick(View v) {
-        if(mDialog != null){
-            mDialog.dismiss();
-        }
-        switch (v.getId()) {
-            case R.id.select_english:
-                switchLanguage("en");
-                break;
-            case R.id.select_chinese:
-                switchLanguage("zh");
-                break;
-         /*   case R.id.button6:
-                if(!budget.getText().toString().equals("")){
-                    new PreferencesManager(this).setUserBudget(Float.parseFloat(budget.getText().toString()));
-                    mydialog.dismiss();
-                }else
-                    break;
-                break;*/
-            default:
-                break;
-        }
-
-        finish();
-        Intent i = new Intent(MainActivity.this, MainActivity.class);
-        startActivity(i);
     }
 }
