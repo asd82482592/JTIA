@@ -9,3 +9,8 @@
     <string name="donation">捐款</string>
     <string name="map">地圖</string>
 </resources>
+<resources>
+    <string name="switch_language">Switch Language</string>
+    <string name="english">English</string>
+    <string name="chinese">Chinese</string>
+</resources>
