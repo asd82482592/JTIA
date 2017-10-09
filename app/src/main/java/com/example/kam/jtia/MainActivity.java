@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_heritageLodge) {
 
         } else if (id == R.id.nav_language) {
-
+           // Intent i = new Intent(this, languageActivity.class);
         } else if (id == R.id.nav_send) {
 
         }
