@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="visit">關於我們</string>
-    <string name="guided_tour">導遊</string>
-    <string name="events">活動</string>
-    <string name="heritage_lodge">翠雅山房</string>
-    <string name="venue_hire">場地租用</string>
-    <string name="e_shop">商店</string>
-    <string name="donation">捐款</string>
-    <string name="map">地圖</string>
-    <string name="lanugage">語言</string>
-</resources>
+<resources></resources>
