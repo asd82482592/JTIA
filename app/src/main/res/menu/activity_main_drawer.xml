@@ -3,24 +3,40 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_aboutUs"
+            android:id="@+id/nav_visit"
             android:icon="@drawable/ic_menu_camera"
-            android:title="About us" />
+            android:title="Visit" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_guidedTour"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Menu2" />
+            android:title="Guided Tour" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_events"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Menu3" />
+            android:title="Events" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_heritageLodge"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Menu4" />
+            android:title="Heritage Lodge" />
+        <item
+            android:id="@+id/nav_venueHire"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Venur Hire" />
+        <item
+            android:id="@+id/nav_eShop"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="E-Shop" />
+        <item
+            android:id="@+id/nav_donation"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Donation" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Map" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Others">
         <menu>
             <item
                 android:id="@+id/nav_share"
