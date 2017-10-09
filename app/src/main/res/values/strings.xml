@@ -6,4 +6,16 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_about_us">aboutUsActivity</string>
+
+
+    <string name="guided_tour" />
+    <string name="events">Events</string>
+    <string name="visit">Visit</string>
+    <string name="heritage_lodge">Heritage Lodge</string>
+    <string name="venue_hire">Venue Hire</string>
+    <string name="e_shop">E-Shop</string>
+    <string name="donation">Donation</string>
+    <string name="map">Map</string>
+
+
 </resources>
